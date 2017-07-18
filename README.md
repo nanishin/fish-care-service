@@ -1,5 +1,5 @@
 # fish_care_service
-To support happy life of pet fish at home
+##To support happy life of pet fish at home
 
 R.I.P - Gyeyomi (Blue Betta Fish Male, Late October 2016 - 16 July 2017)
 
@@ -13,4 +13,14 @@ Unfortunately he passed away to Yong-gung(i.e. Dragon palace, fish version of he
 
 Now new Guppy family started their life in the same tank.
 
-To memorize Gyeyomi and share knowledges, this repository is created.
+To memorize Gyeyomi and share knowledge, this repository is created.
+----
+## Galup Collaboration
+All things are possible by Galup collaboration.
+## Arm Docker Container
+## Arduino Control via Firmata Protocol
+## Servo Motor
+## Neopixel LED Strip
+## Power Relay
+## Dfrobot PH Meter Sensor
+## Dfrobot EC Meter Sensor
