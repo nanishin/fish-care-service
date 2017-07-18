@@ -21,19 +21,24 @@ To memorize Gyeyomi and share knowledge, this repository is created.
 
 ## Galup Collaboration
 All things are possible by Galup collaboration.
+
 ## Arm Docker Container
 Basically fish_care_service is packed to arm docker container.
-## Arduino Control via Firmata Protocol
+### Arduino Control via Firmata Protocol
 For physical control of fish tank, arduino gpio is used.
 
-fish_care_service control The arduino via firmata protocol.
-### Servo Motor
-For auto feeding
-### Adafruit Neopixel LED Strip
-For light
-### Power Relay
-For water pumped filter
-### Dfrobot PH Meter Sensor
-For PH value measurement
-### Dfrobot EC Meter Sensor
-For EC value measurement
+fish_care_service control the arduino via firmata protocol.
+#### Micro Servo Motor
+Support auto feeding
+#### Adafruit Neopixel LED Strip
+Support light
+#### Power Relay
+Support water pumped filter
+#### Dfrobot PH Meter Sensor
+Support PH value measurement
+#### Dfrobot EC Meter Sensor
+Support EC value measurement
+
+### Telegram Chat Bot Control
+For remote control&report, telegram bot is used.
+
