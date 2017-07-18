@@ -1,2 +1,15 @@
 # fish_care_service
-To support happy life of fish at home
+To support happy life of pet fish at home
+
+R.I.P - Gyeyomi (Blue Betta Fish Male, Late October 2016 - 16 July 2017)
+![](/media/Gyeyomi.jpg)
+
+Gyeyomi was a first pet fish brought by my first daughter. She got Gyeyomi from biology class of elementry school.
+
+I learned a lot of knowledge to take care of happy life of Gyeyomi.
+
+Unfortunately he passed away to Yong-gung(i.e. Dragon palace, fish version of heaven).
+
+Now new Guppy family started their life in the same tank.
+
+To memorize Gyeyomi and share knowledges, this repository is created.
