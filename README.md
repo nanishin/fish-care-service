@@ -49,7 +49,7 @@ Referenced from [Adafruit Neopixel](https://github.com/adafruit/Adafruit_NeoPixe
 #### Analog PH Meter Sensor
 Support PH value measurement
 
-Referenced from [dfrobot SEN0161 manual](https://www.dfrobot.com/wiki/index.php/PH_meter(SKU:_SEN0161)
+Referenced from [dfrobot SEN0161 manual](https://www.dfrobot.com/wiki/index.php/PH_meter(SKU:_SEN0161))
 #### Analog EC Meter Sensor
 Support EC value measurement
 
