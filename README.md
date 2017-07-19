@@ -1,4 +1,4 @@
-# fish_care_service
+# fish-care-service
 ## To support happy life of pet fish at home
 
 R.I.P - Gwiyomi (Blue Betta Fish Male, Late October 2016 - 16 July 2017)
@@ -23,11 +23,11 @@ To memorize Gwiyomi and share knowledge, this repository is created.
 All things are possible by Galup collaboration.
 
 ## Arm Docker Container
-Basically fish_care_service is packed to arm docker container.
+Basically fish-care-service is packed to arm docker container.
 ### Arduino Control via Firmata Protocol
 For physical control of fish tank, arduino gpio is used.
 
-fish_care_service control the arduino via firmata protocol.
+fish-care-service control the arduino via firmata protocol.
 #### Micro Servo Motor
 Support auto feeding
 #### Adafruit Neopixel LED Strip
