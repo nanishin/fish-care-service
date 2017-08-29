@@ -26,6 +26,8 @@ All things are possible by Galup collaboration.
 Basically fish-care-service is packed to arm docker container.
 
 Referenced from resin.io blog ([Building ARM containers on any x86 machine, even DockerHub](https://resin.io/blog/building-arm-containers-on-any-x86-machine-even-dockerhub/))
+
+Referenced from [resin-io/qemu](https://github.com/resin-io/qemu)
 ### Arduino Control via Firmata Protocol
 For physical control of fish tank, arduino gpio is used.
 
