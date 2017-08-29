@@ -28,7 +28,7 @@ func main() {
 
 func ArduinoFeedControl() {
 	arduino.PinMode(feed_servo_pin, goduino.Servo)
-    arduino.Delay(time.Millisecond * 10)
+	arduino.Delay(time.Millisecond * 10)
 
 /*
 	var pos byte
@@ -43,13 +43,13 @@ func ArduinoFeedControl() {
 	}
 	arduino.ServoWrite(feed_servo_pin, pos)
 */
-    arduino.ServoWrite(feed_servo_pin, 0)
-    arduino.Delay(time.Millisecond * 1000)
-    arduino.ServoWrite(feed_servo_pin, 130)
-    arduino.Delay(time.Millisecond * 1000)
-    arduino.ServoWrite(feed_servo_pin, 0)
+	arduino.ServoWrite(feed_servo_pin, 0)
+	arduino.Delay(time.Millisecond * 1000)
+	arduino.ServoWrite(feed_servo_pin, 130)
+	arduino.Delay(time.Millisecond * 1000)
+	arduino.ServoWrite(feed_servo_pin, 0)
 
-    arduino.Delay(time.Millisecond * 10)
+	arduino.Delay(time.Millisecond * 10)
 
 	arduino.PinMode(feed_servo_pin, goduino.Input)
 }
