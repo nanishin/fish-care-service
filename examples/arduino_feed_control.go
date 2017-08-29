@@ -20,7 +20,7 @@ func main() {
 
 	for {
 		arduino.DigitalWrite(13, 1)
-        ArduinoFeedControl()
+		ArduinoFeedControl()
 		arduino.DigitalWrite(13, 0)
 		arduino.Delay(time.Millisecond * 1500)
 	}
