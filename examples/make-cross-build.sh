@@ -1,6 +1,7 @@
 #!/bin/sh
 
 rm arduino_feed_control
+rm arduino_relay_control
 rm -rf src pkg
 
 CURRENT_PATH=`pwd`
@@ -23,3 +24,4 @@ go build
 
 cd $GOPATH
 go build arduino_feed_control.go
+go build arduino_relay_control.go
