@@ -9,7 +9,7 @@ import (
 var feed_servo_pin = 3
 
 //var arduino = goduino.New("myArduino", "/dev/ttyUSB0")
-var arduino = goduino.New("myArduino", "/dev/tty.usbmodem1421")
+var arduino = goduino.New("myArduino", "/dev/tty.usbmodem1411")
 func main() {
 	err := arduino.Connect()
 	defer arduino.Disconnect()
@@ -29,7 +29,6 @@ func main() {
 func ArduinoFeedControl() {
 	arduino.PinMode(feed_servo_pin, goduino.Servo)
 	arduino.Delay(time.Millisecond * 10)
-
 /*
 	var pos byte
 	for pos = 0; pos <= 130; pos += 1 {
@@ -43,6 +42,7 @@ func ArduinoFeedControl() {
 	}
 	arduino.ServoWrite(feed_servo_pin, pos)
 */
+
 	arduino.ServoWrite(feed_servo_pin, 0)
 	arduino.Delay(time.Millisecond * 1000)
 	arduino.ServoWrite(feed_servo_pin, 130)
