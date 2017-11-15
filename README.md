@@ -56,6 +56,10 @@ Referenced from [dfrobot SEN0161 manual](https://www.dfrobot.com/wiki/index.php/
 Support EC value measurement
 
 Referenced from [dfrobot DFR0300 manual](https://www.dfrobot.com/wiki/index.php/Analog_EC_Meter_SKU:DFR0300)
+#### Analog Liquid Leak Sensor
+Support Liquid leak status
+
+Referenced from [cooking-hacks leak sensor manual](https://www.cooking-hacks.com/water-leakage-liquid-detection-sensor-line)
 ### Telegram Chat Bot Control
 For remote control&report, telegram chat bot is used.
 

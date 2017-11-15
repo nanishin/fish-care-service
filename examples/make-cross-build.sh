@@ -5,6 +5,7 @@ rm arduino_relay_control
 rm arduino_neopixel_control
 rm arduino_ph_measure
 rm arduino_ec_measure
+rm arduino_leak_status
 rm -rf src pkg
 
 CURRENT_PATH=`pwd`
@@ -31,3 +32,4 @@ go build arduino_relay_control.go
 go build arduino_neopixel_control.go
 go build arduino_ph_measure.go
 go build arduino_ec_measure.go
+go build arduino_leak_status.go
