@@ -28,8 +28,8 @@ go build
 
 cd $GOPATH
 go build arduino_feed_control.go
-go build arduino_relay_control.go
-go build arduino_neopixel_control.go
-go build arduino_ph_measure.go
-go build arduino_ec_measure.go
-go build arduino_leak_status.go
+#go build arduino_relay_control.go
+#go build arduino_neopixel_control.go
+#go build arduino_ph_measure.go
+#go build arduino_ec_measure.go
+#go build arduino_leak_status.go
